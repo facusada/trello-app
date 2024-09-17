@@ -35,8 +35,8 @@ export default {
       allBoards: []
     }
   },
-  mounted () {
-    this.allBoards = getAllBoards()
+  async mounted () {
+    this.allBoards = await getAllBoards()
   },
   computed: {
     ...mapState(['boards'])
