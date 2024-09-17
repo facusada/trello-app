@@ -1,5 +1,21 @@
-# Vue 3 + Vite
+CRM Trello-App
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a CRM (Customer Relationship Management) application inspired by Trello. It allows users to create projects, assign tasks, and track their status through a drag-and-drop interface.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Features
+
+	•	Project Management: Create, update, and view projects.
+	•	Task Management: Assign tasks to projects, update task statuses (pending, in progress, completed).
+	•	Drag and Drop: Organize tasks with a Trello-like board interface using Vue Draggable.
+	•	Responsive UI: Built with Vuetify for a modern, responsive design.
+	•	State Management: Vuex for handling application state.
+	•	Routing: Vue Router for navigating between project boards.
+
+Tech Stack
+
+	•	Frontend: Vue 3, Vuetify, Vue Draggable, Vuex, Vue Router
+	•	Build Tool: Vite
+	•	Backend: Django (Python)
+	•	Styling: Material Design Icons
+	•	Database: PostgreSQL
+    
