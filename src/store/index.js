@@ -30,14 +30,10 @@ const store = createStore({
   mutations: {
     UPDATE_BOARD_TASKS(state, { boardId, tasks }) {
       const board = state.boards.find((board) => board.id === boardId);
-      debugger
-      let taskSelected = tasks.find((task) => {
-        
-      });
-      // if (board) {
-      //   debugger
-      //   board.tasks.push(tasks);
-      // }
+
+      if (board) {
+        board.tasks.push(tasks);
+      }
     },
   },
   actions: {

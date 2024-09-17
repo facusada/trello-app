@@ -6,7 +6,7 @@
         :key="list.id"
         cols="12" sm="4"
       >
-        <v-card class="pa-4">
+        <v-card>
           <draggable 
             :list="list.tasks" 
             group="tasks"
