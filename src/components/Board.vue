@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col
-        v-for="list in boards"
+        v-for="list in allBoards"
         :key="list.id"
         cols="12" sm="4"
       >
@@ -40,9 +40,6 @@ export default {
   async mounted () {
     this.allBoards = await getAllBoards()
   },
-  computed: {
-    ...mapState(['boards'])
-  }
 };
 </script>
 
