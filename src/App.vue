@@ -16,3 +16,10 @@ export default {
   }),
 }
 </script>
+
+
+<style scoped>
+.v-main {
+  background: linear-gradient(135deg, #e0f7fa, #e3f2fd);
+}
+</style>

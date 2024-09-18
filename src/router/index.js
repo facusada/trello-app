@@ -1,8 +1,19 @@
 import { createRouter, createWebHistory } from 'vue-router';
+import Layout from '@/components/Layout.vue';
 import Board from '@/components/Board.vue';
 
 const routes = [
-  { path: '/', component: Board },
+  {
+    path: '/',
+    component: Layout,
+    children: [
+      {
+        path: 'project/:id',
+        component: Board,
+        props: true,
+      }
+    ]
+  }
 ];
 
 const router = createRouter({

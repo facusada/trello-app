@@ -1,6 +1,5 @@
 <template>
   <v-card-text>
-    <v-divider></v-divider>
     <draggable 
       class="task-list" 
       group="tasks" 
