@@ -7,6 +7,8 @@
         cols="12" sm="4"
       >
         <v-card>
+          <h3 class="text-h6 mb-4">{{ list.title }}</h3>
+
           <draggable 
             :list="list.tasks" 
             group="tasks"
@@ -56,5 +58,7 @@ export default {
 h3 {
   font-weight: bold;
   color: #333;
+  display: flex;
+  justify-content: center;
 }
 </style>

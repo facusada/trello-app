@@ -1,7 +1,6 @@
 <template>
   <v-card-text>
     <v-divider></v-divider>
-    <h3 class="text-h6 mb-4">{{ title }}</h3>
     <draggable 
       class="task-list" 
       group="tasks" 
